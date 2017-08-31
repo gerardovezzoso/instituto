@@ -40,5 +40,7 @@
 		
 		$yamaha_R1_bis = $yamaha_R1 -> __clone();
 		echo "R1".$yamaha_R1_bis -> marca;
+
+//esto es modificado
 		
 ?>
