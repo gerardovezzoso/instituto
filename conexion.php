@@ -18,15 +18,8 @@
 			//$that referencia al objet original
 			//$this referencia al objeto clonado
 			
-			function __clone()
-			{
-				$this -> ruedas['del'] = new rueda($that -> ruedas['del'] -> nombre);
-				$this -> ruedas['tras'] = new rueda($that -> ruedas['tras'] -> nombre);
-			}
 	    }
-		
-		//Creamos 2 ruedas y una moto
-		
+
 		$rueda_del_mich = new rueda("delantera_michelin");
 		$rueda_tras_mich = new rueda("trasera_michelin");
 		
